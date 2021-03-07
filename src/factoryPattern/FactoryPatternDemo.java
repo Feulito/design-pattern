@@ -1,6 +1,6 @@
 package factoryPattern;
 
-import factoryPattern.enumeration.ShapeEnum;
+import factoryPattern.enumerations.ShapeEnum;
 import factoryPattern.factories.ShapeFactory;
 import factoryPattern.interfaces.Shape;
 
