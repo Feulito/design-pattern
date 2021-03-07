@@ -1,6 +1,6 @@
 package factoryPattern.factories;
 
-import factoryPattern.enumeration.ShapeEnum;
+import factoryPattern.enumerations.ShapeEnum;
 import factoryPattern.interfaces.Shape;
 import factoryPattern.shapes.Circle;
 import factoryPattern.shapes.Rectangle;
@@ -11,7 +11,7 @@ public class ShapeFactory {
     /**
      * Méthode avec le string en paramètre
      * La méthode retourne une forme en fonction de la chaine de caractère passée en paramètre
-     * @param shapeName
+     * @param shapeName Nom de la forme
      * @return Shape
      */
     public static Shape getShape(String shapeName) {
